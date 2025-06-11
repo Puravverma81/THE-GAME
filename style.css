@@ -1,0 +1,66 @@
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: large;
+    background-color: #5529a1;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.game-container {
+    background: hsl(194, 70%, 71%);
+    padding: 20px;
+    border-radius: 8px;
+    display: inline-block;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.buttons {
+    margin-bottom: 20px;
+}
+
+.rock{
+  width: 250px;
+  height: 250px;
+  background-color: rgb(235, 248, 244);
+}
+
+.paper{
+  width: 250px;
+  height: 250px;
+  background-color: rgb(237, 243, 241);
+}
+
+.scissors{
+  width: 250px;
+  height:250px;
+  background-color: rgb(222, 227, 227);
+}
+
+button.choice {
+    font-size: 1rem;
+    margin: 0px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5%;
+    background-color: #c1103c;
+    color: white;
+    transition: background 0.3s;
+}
+
+button.choice:hover {
+    background-color: #bc5c13;
+}
+
+.result p {
+    font-size: 1.1rem;
+    margin: 10px 0;
+}
+
